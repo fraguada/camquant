@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<meta charset="UTF-8"> 
+<html>
+    <head>
+        <title>CamQuant Example</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <!-- 
+            notice: the video element is hidden. 
+            probably there is a better way to get the video data without passing through a video element.
+        -->
+        <video id="videoInput" width="640" height="480" style="display:none"></video>
+        <canvas width="640" height="480"></canvas>
+        <div>
+            <button id="startAndStop">Start Video</button>
+            <div id="errorMessage" class="err"></div>
+            <div id="sliderValue" class="value">Number of clusters: 6</div>
+            <input type="range" min="1" max="30" value="6" class="slider" step="1">
+        </div>
+        <script type="text/javascript" src="js/skmeans.js"></script> 
+        <script type="text/javascript" src="js/camUtilities.js"></script> 
+        <script type="text/javascript" src="js/main.js"></script> 
+    </body>
+</html>
