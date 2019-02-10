@@ -8,3 +8,5 @@
 Demo of using kmeans to quantize a video.
 
 This demo depends on [skmeans](https://github.com/solzimer/skmeans) javascript library by @solzimer.
+
+There are things that could probably be improved. If you find any, please open an issue or submit a PR!
