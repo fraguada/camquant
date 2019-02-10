@@ -1,4 +1,4 @@
-//Where did this come from!?
+//Adapted from https://codepen.io/huningxin/pen/ReMezx
 
 function CamUtils(errorOutputId) {
     let self = this;
